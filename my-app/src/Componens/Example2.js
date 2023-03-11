@@ -9,9 +9,9 @@ function Example2() {
     <div>
       <input
         type="text"
-        
+
         ww
-        placeholder="Enter a color"
+        placeholder="Enter a colr"
         onBlur={(event) => handleColor(event)}
       />
 
