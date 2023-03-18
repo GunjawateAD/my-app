@@ -55,10 +55,9 @@ function Example3() {
         <button>Submit</button>
       </form>
 
-      {inputarr.map((info, ind) => {
+      {inputarr.map((info) => {
         return (
           <>
-            <tr>key={ind}</tr>
             <h1>{info.name}</h1>
             <h2>{info.email}</h2>
             <h1>{info.password}</h1>
