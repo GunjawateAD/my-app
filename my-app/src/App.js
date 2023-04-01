@@ -5,6 +5,8 @@ import HExample1 from "./Componens/useEffectHooks/HExample1";
 import FocusInput from "./Componens/Hooks/FocusInput";
 import HookTimer from "./Componens/Hooks/HookTimer";
 import HightChecker from "./Componens/Hooks/HightChecker";
+import CounterOne from "./Componens/Hooks/CounterOne";
+import StopWatch from "./Componens/Hooks/StopWatch";
 
 function App() {
   return (
@@ -13,7 +15,10 @@ function App() {
       {/* <HExample1></HExample1> */}
       {/* <FocusInput></FocusInput>
       <HookTimer></HookTimer> */}
-      <HightChecker></HightChecker>
+      {/* <HightChecker></HightChecker> */}
+
+      {/* <CounterOne/> */}
+      <StopWatch/>
     </div>
   );
 }
